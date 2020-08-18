@@ -125,7 +125,7 @@
 }
 
 .about-right-col {
-  padding-left: 10rem;
+  padding-left: 3rem;
 }
 
 .about-right-col h2 {
@@ -138,6 +138,10 @@
 
 .about-right-col p {
   font-family: 'Oxygen', sans-serif;
+}
+
+.about-cell {
+  padding-left: 3rem;
 }
 
 .about-cell h2 {
