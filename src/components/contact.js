@@ -17,24 +17,24 @@ class Contact extends Component {
 
                         <div className="contact-listItem">
                             <p className="contact-li">
-                                <i className="fa fa-phone-square" aria-hidden="true" style={{ paddingRight: "0.75rem"}}/>
+                                {/* <i className="fa fa-phone-square" aria-hidden="true" style={{ paddingRight: "0.75rem"}}/> */}
                                     07587 170269
-                                </p>
+                            </p>
                             <p>
-                                <i className="fa fa-envelope" aria-hidden="true" style={{ paddingRight: "0.75rem"}}/>
+                                {/* <i className="fa fa-envelope" aria-hidden="true" style={{ paddingRight: "0.75rem"}}/> */}
                                     benmason1992@hotmail.co.uk
-                                </p>
+                            </p>
                             <p>
-                                <i className="fa fa-linkedin-square" aria-hidden="true" style={{ paddingRight: "0.75rem"}}/>
+                                {/* <i className="fa fa-linkedin-square" aria-hidden="true" style={{ paddingRight: "0.75rem"}}/> */}
                                 <a href="https://www.linkedin.com/in/benmason1992/" target="_blank" rel="noopener noreferrer" className="social-links">
                                     LinkedIn
                                 </a>
                             </p>
                             <p>
-                                <i className="fa fa-github-square" aria-hidden="true" style={{ paddingRight: "0.75rem"}}/>
+                                {/* <i className="fa fa-github-square" aria-hidden="true" style={{ paddingRight: "0.75rem"}}/> */}
                                 <a href="https://github.com/benmason1992" target="_blank" rel="noopener noreferrer" className="social-links">
                                     GitHub
-                                    </a>
+                                </a>
                             </p>
                             {/* <List>
                                 <ListItem>
