@@ -14,11 +14,10 @@ class Landing extends Component {
                             <p>HTML/CSS | Bootstrap | JavaScript | React | PHP | Laravel | MySQL</p>
                         </div>
                     </Cell>
-
                 </Grid>
             </div>
-        )
-    }
-}
+        );
+    };
+};
 
 export default Landing;

@@ -16,7 +16,7 @@ class Projects extends Component {
                         <CardTitle style={{ color: '#000', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2560px-React-icon.svg.png) center / cover' }}>Portfolio Website</CardTitle>
                         <CardText>
                             This very website was created in React, see github below!
-                    </CardText>
+                        </CardText>
                         <CardActions border>
                             <Button colored><a href="https://github.com/benmason1992/portfolioSite" target="_blank" rel="noopener noreferrer">Github</a></Button>
                         </CardActions>
@@ -37,7 +37,7 @@ class Projects extends Component {
                         </CardMenu>
                     </Card>
                 </div>
-            )
+            );
         } else if (this.state.activeTab === 1) {
             return (
                 <div className="projects-grid">
@@ -68,7 +68,7 @@ class Projects extends Component {
                     </Card>
                 </div>
 
-            )
+            );
         } else if (this.state.activeTab === 2) {
             return (
                 <div className="projects-grid">
@@ -85,7 +85,7 @@ class Projects extends Component {
                         </CardMenu>
                     </Card>
                 </div>
-            )
+            );
         };
     };
     render() {
@@ -102,9 +102,8 @@ class Projects extends Component {
                         <div className="content">{this.toggleCategories()}</div>
                     </Cell>
                 </Grid>
-
             </div>
-        )
+        );
     };
 };
 

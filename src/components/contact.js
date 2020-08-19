@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Cell} from "react-mdl";
+import { Grid, Cell } from "react-mdl";
 
 class Contact extends Component {
     render() {
@@ -14,64 +14,18 @@ class Contact extends Component {
                     <Cell col={6}>
                         <h2>Contact Me</h2>
                         <hr />
-
                         <div className="contact-listItem">
                             <p className="contact-li">
-                                {/* <i className="fa fa-phone-square" aria-hidden="true" style={{ paddingRight: "0.75rem"}}/> */}
-                                    07587 170269
+                                07587 170269
                             </p>
-                            <p>
-                                {/* <i className="fa fa-envelope" aria-hidden="true" style={{ paddingRight: "0.75rem"}}/> */}
-                                    benmason1992@hotmail.co.uk
+                            <p className="contact-li">
+                                benmason1992@hotmail.co.uk
                             </p>
-                            <p>
-                                {/* <i className="fa fa-linkedin-square" aria-hidden="true" style={{ paddingRight: "0.75rem"}}/> */}
-                                <a href="https://www.linkedin.com/in/benmason1992/" target="_blank" rel="noopener noreferrer" className="social-links">
-                                    LinkedIn
-                                </a>
-                            </p>
-                            <p>
-                                {/* <i className="fa fa-github-square" aria-hidden="true" style={{ paddingRight: "0.75rem"}}/> */}
-                                <a href="https://github.com/benmason1992" target="_blank" rel="noopener noreferrer" className="social-links">
-                                    GitHub
-                                </a>
-                            </p>
-                            {/* <List>
-                                <ListItem>
-                                    <ListItemContent style={{ fontSize: "22px", fontFamily: "Oxygen" }}>
-                                        <i className="fa fa-phone-square" aria-hidden="true" />
-                                        07587 170269
-                                    </ListItemContent>
-                                </ListItem>
-                                <ListItem>
-                                    <ListItemContent style={{ fontSize: "22px", fontFamily: "Oxygen" }}>
-                                        <i className="fa fa-envelope" aria-hidden="true" />
-                                        benmason1992@hotmail.co.uk
-                                    </ListItemContent>
-                                </ListItem>
-                                <ListItem>
-                                    <ListItemContent style={{ fontSize: "22px", fontFamily: "Oxygen" }}>
-                                        <i className="fa fa-linkedin-square" aria-hidden="true"></i>
-                                        <a href="https://www.linkedin.com/in/benmason1992/" target="_blank" rel="noopener noreferrer" className="social-links">
-                                            LinkedIn
-                                        </a>
-                                    </ListItemContent>
-                                </ListItem>
-                                <ListItem>
-                                    <ListItemContent style={{ fontSize: "22px", fontFamily: "Oxygen" }}>
-                                        <i className="fa fa-github-square" aria-hidden="true"></i>
-                                        <a href="https://github.com/benmason1992" target="_blank" rel="noopener noreferrer" className="social-links">
-                                            GitHub
-                                        </a>
-                                    </ListItemContent>
-                                </ListItem>
-                            </List> */}
                         </div>
                     </Cell>
                 </Grid>
-
             </div>
-        )
+        );
     };
 };
 
