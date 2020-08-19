@@ -12,15 +12,6 @@ class Landing extends Component {
                             <h1>Full Stack Web Developer</h1>
                             <hr/>
                             <p>HTML/CSS | Bootstrap | JavaScript | React | PHP | Laravel | MySQL</p>
-                            <div className="social-links">
-                                <a href="https://www.linkedin.com/in/benmason1992/" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-linkedin-square" aria-hidden="true"></i>
-                                </a>
-                                <a href="https://github.com/benmason1992" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-github-square" aria-hidden="true"></i>
-                                </a>
-                            </div>
-
                         </div>
                     </Cell>
 

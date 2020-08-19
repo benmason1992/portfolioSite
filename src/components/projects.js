@@ -73,7 +73,7 @@ class Projects extends Component {
             return (
                 <div className="projects-grid">
                     <Card shadow={4} style={{ width: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#000', height: '176px', background: 'url(https://coralogix.com/wp-content/uploads/2018/04/Coralogix-Nodejs-integration.jpg) center / cover' }}>Name Finder</CardTitle>
+                        <CardTitle style={{ color: '#000', height: '176px', background: 'url(https://image.flaticon.com/icons/svg/919/919825.svg) center / cover' }}>Name Finder</CardTitle>
                         <CardText>
                             Created a program in Node.js that will read a .txt file and find entries that match names or entries in another .txt file. The book I used was Oliver Twist.
                         </CardText>

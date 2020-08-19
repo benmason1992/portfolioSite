@@ -55,14 +55,12 @@
 }
 
 .social-links {
-  display: flex;
-  justify-content: space-evenly;
-  width: 50%;
-  margin: auto;
+  font-size: 22px;
+  color: black;
 }
 
 .social-links i {
-  color: white;
+  color: #000;
   font-size: 3rem;
 }
 
@@ -113,9 +111,16 @@
   margin: auto;
 }
 
-.contact-list i {
-  font-size: 30px;
-  padding-right: 4rem;
+.contact-listItem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-listItem p {
+  font-size: 22px;
+  padding: 2rem;
 }
 
 .about-text {
