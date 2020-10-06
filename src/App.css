@@ -167,5 +167,6 @@
   .projects-card {
     margin-bottom: 1rem;
     align-self: center;
+    width: 60%;
   }
 }
