@@ -12,7 +12,7 @@ class Projects extends Component {
         if (this.state.activeTab === 0) {
             return (
                 <div className="projects-grid">
-                    <Card shadow={10} style={{ width: '450', margin: 'auto' }}>
+                    <Card shadow={10} className="projects-card">
                         <CardTitle style={{ color: '#000', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2560px-React-icon.svg.png) center / cover' }}>Portfolio Website</CardTitle>
                         <CardText>
                             This very website was created in React, see github below!
@@ -24,7 +24,7 @@ class Projects extends Component {
                             <IconButton name="share" />
                         </CardMenu>
                     </Card>
-                    <Card shadow={10} style={{ width: '450', margin: 'auto' }}>
+                    <Card shadow={10} className="projects-card">
                         <CardTitle style={{ color: '#000', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2560px-React-icon.svg.png) center / cover' }}>Table Tennis Bracket App</CardTitle>
                         <CardText>
                             This was my final project in March 2020 following my attendence at DevelopMe.
@@ -41,7 +41,7 @@ class Projects extends Component {
         } else if (this.state.activeTab === 1) {
             return (
                 <div className="projects-grid">
-                    <Card shadow={10} style={{ width: '450', margin: 'auto' }}>
+                    <Card shadow={10} className="projects-card">
                         <CardTitle style={{ color: '#000', height: '176px', background: 'url(https://vulpo.io/wp-content/uploads/2018/06/laravel-1.png) center / cover' }}>MIXR API</CardTitle>
                         <CardText>
                             I created the API in Laravel and MySQL for the back-end of this project. With a RESTful resource controller, and eloquent many to many relationship.
@@ -54,7 +54,7 @@ class Projects extends Component {
                             <IconButton name="share" />
                         </CardMenu>
                     </Card>
-                    <Card shadow={10} style={{ width: '450', margin: 'auto' }}>
+                    <Card shadow={10} className="projects-card">
                         <CardTitle style={{ color: '#000', height: '176px', background: 'url(https://vulpo.io/wp-content/uploads/2018/06/laravel-1.png) center / cover' }}>instaBen</CardTitle>
                         <CardText>
                             Created a basic clone of instagram using MVC that allows users to create their own profiles, add their images, follow other users and see other users uploaded images on a timeline.
@@ -72,7 +72,7 @@ class Projects extends Component {
         } else if (this.state.activeTab === 2) {
             return (
                 <div className="projects-grid">
-                    <Card shadow={4} style={{ width: '450', margin: 'auto' }}>
+                    <Card shadow={4} className="projects-card">
                         <CardTitle style={{ color: '#000', height: '176px', background: 'url(https://image.flaticon.com/icons/svg/919/919825.svg) center / cover' }}>Name Finder</CardTitle>
                         <CardText>
                             Created a program in Node.js that will read a .txt file and find entries that match names or entries in another .txt file. The book I used was Oliver Twist.

@@ -63,7 +63,12 @@
 
 .projects-grid {
   display: flex;
+  justify-content: space-around;
   padding-top: 4rem;
+}
+.projects-card {
+  width: 450px;
+  margin: 'auto'
 }
 
 .contact-body {
@@ -152,4 +157,15 @@
 
 .about-cell p {
   font-family: 'Oxygen', sans-serif;
+}
+
+@media only screen and (max-width: 725px) {
+  .projects-grid {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .projects-card {
+    margin-bottom: 1rem;
+    align-self: center;
+  }
 }
