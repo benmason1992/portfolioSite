@@ -71,6 +71,10 @@
   margin: 'auto'
 }
 
+.category-tabs {
+  color: red;
+}
+
 .contact-body {
   margin: auto;
   position: fixed;
@@ -157,6 +161,10 @@
 
 .about-cell p {
   font-family: 'Oxygen', sans-serif;
+}
+
+.drawer-button {
+  color: coral;
 }
 
 @media only screen and (max-width: 725px) {
