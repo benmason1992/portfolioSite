@@ -13,6 +13,48 @@ class Projects extends Component {
             return (
                 <div className="projects-grid">
                     <Card shadow={10} className="projects-card">
+                        <CardTitle style={{ color: '#000', height: '176px', background: 'url(https://vulpo.io/wp-content/uploads/2018/06/laravel-1.png) center / cover' }}>MIXR API</CardTitle>
+                        <CardText>
+                            I created the API in Laravel and MySQL for the back-end of this project. With a RESTful resource controller, and eloquent many to many relationship.
+                        </CardText>
+                        <CardActions border>
+                            <Button colored><a href="https://github.com/benmason1992/mixr-api" target="_blank" rel="noopener noreferrer">Github</a></Button>
+                            <Button colored><a href="https://bristolruss.github.io/group-project-frontend/#/" target="_blank" rel="noopener noreferrer">Live Demo</a></Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+                    <Card shadow={10} className="projects-card">
+                        <CardTitle style={{ color: '#000', height: '176px', background: 'url(https://vulpo.io/wp-content/uploads/2018/06/laravel-1.png) center / cover' }}>instaBen</CardTitle>
+                        <CardText>
+                            Created a basic clone of instagram using MVC that allows users to create their own profiles, add their images, follow other users and see other users uploaded images on a timeline.
+                        </CardText>
+                        <CardActions border>
+                            <Button colored><a href="https://github.com/benmason1992/instaben" target="_blank" rel="noopener noreferrer">Github</a></Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+                    <Card shadow={10} className="projects-card">
+                        <CardTitle style={{ color: '#000', height: '176px', background: 'url(https://vulpo.io/wp-content/uploads/2018/06/laravel-1.png) center / cover' }}>AWS Uploader</CardTitle>
+                        <CardText>
+                            A simple Laravel Application designed to read and write files to an S3 bucket.
+                        </CardText>
+                        <CardActions border>
+                            <Button colored><a href="https://github.com/TerenceJefferies/aws-upload" target="_blank" rel="noopener noreferrer">Github</a></Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+                </div>
+            );
+        } else if (this.state.activeTab === 1) {
+            return (
+                <div className="projects-grid">
+                    <Card shadow={10} className="projects-card">
                         <CardTitle style={{ color: '#000', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2560px-React-icon.svg.png) center / cover' }}>Portfolio Website</CardTitle>
                         <CardText>
                             This very website was created in React, see github below!
@@ -38,37 +80,6 @@ class Projects extends Component {
                     </Card>
                 </div>
             );
-        } else if (this.state.activeTab === 1) {
-            return (
-                <div className="projects-grid">
-                    <Card shadow={10} className="projects-card">
-                        <CardTitle style={{ color: '#000', height: '176px', background: 'url(https://vulpo.io/wp-content/uploads/2018/06/laravel-1.png) center / cover' }}>MIXR API</CardTitle>
-                        <CardText>
-                            I created the API in Laravel and MySQL for the back-end of this project. With a RESTful resource controller, and eloquent many to many relationship.
-                        </CardText>
-                        <CardActions border>
-                            <Button colored><a href="https://github.com/benmason1992/mixr-api" target="_blank" rel="noopener noreferrer">Github</a></Button>
-                            <Button colored><a href="https://bristolruss.github.io/group-project-frontend/#/" target="_blank" rel="noopener noreferrer">Live Demo</a></Button>
-                        </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name="share" />
-                        </CardMenu>
-                    </Card>
-                    <Card shadow={10} className="projects-card">
-                        <CardTitle style={{ color: '#000', height: '176px', background: 'url(https://vulpo.io/wp-content/uploads/2018/06/laravel-1.png) center / cover' }}>instaBen</CardTitle>
-                        <CardText>
-                            Created a basic clone of instagram using MVC that allows users to create their own profiles, add their images, follow other users and see other users uploaded images on a timeline.
-                        </CardText>
-                        <CardActions border>
-                            <Button colored><a href="https://github.com/benmason1992/instaben" target="_blank" rel="noopener noreferrer">Github</a></Button>
-                        </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name="share" />
-                        </CardMenu>
-                    </Card>
-                </div>
-
-            );
         } else if (this.state.activeTab === 2) {
             return (
                 <div className="projects-grid">
@@ -92,11 +103,10 @@ class Projects extends Component {
         return (
             <div className="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-                    <Tab>React</Tab>
                     <Tab>Laravel</Tab>
+                    <Tab>React</Tab>
                     <Tab>Node.js</Tab>
                 </Tabs>
-
                 <Grid>
                     <Cell col={12}>
                         <div className="content">{this.toggleCategories()}</div>

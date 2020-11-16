@@ -8,8 +8,7 @@ class Contact extends Component {
                 <Grid className="contact-grid">
                     <Cell col={6}>
                         <h2>Ben Mason</h2>
-                        <img src="https://media-exp1.licdn.com/dms/image/C4E03AQEolgWukYsanQ/profile-displayphoto-shrink_400_400/0?e=1608768000&v=beta&t=EfLHw-3UsllhFxwYQqbCEnjZUWY-wFM8V_t-OKQ5TBc" alt="myself" className="image-of-me" />
-                        <p className="about-text">A career changing developer formerly a Civil Servant. Attended DevelopMe's bootcamp at the beginning of 2020 and am looking for my first web/software development role. </p>
+                        <p className="about-text">A career changing developer formerly a Civil Servant. Attended DevelopMe's bootcamp in 2020 and I am looking for my first web/software development role. </p>
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>
