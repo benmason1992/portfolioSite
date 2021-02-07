@@ -26,11 +26,11 @@ class About extends Component {
                             <li>HTML/CSS3/Bootstrap</li>
                             <li>JavaScript/JSX</li>
                             <li>React/Redux</li>
+                            <li>jQuery</li>
                             <li>PHP</li>
                             <li>Laravel</li>
-                            <li>MySQL</li>
+                            <li>SQL</li>
                             <li>Git</li>
-                            <li>Command Line</li>
                         </ul>
                         <h4>Previous Employment</h4>
                         <hr style={{ borderTop: "3px dotted", width: "50%" }} />

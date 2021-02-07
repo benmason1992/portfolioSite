@@ -12,7 +12,7 @@ class Landing extends Component {
                         <div className="banner-text">
                             <h1>Full Stack Web Developer</h1>
                             <hr/>
-                            <p>HTML/CSS | Bootstrap | JavaScript | React | PHP | Laravel | MySQL</p>
+                            <p>JavaScript | React | jQuery | PHP | Laravel | SQL</p>
                         </div>
                     </Cell>
                 </Grid>
