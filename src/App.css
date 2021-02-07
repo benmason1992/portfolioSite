@@ -167,7 +167,7 @@
   color: coral;
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 725px) {
   .projects-grid {
     flex-direction: column;
     justify-content: space-between;
